@@ -82,17 +82,23 @@ a:hover {
     padding-top: 60px;
 }
 
+#container {
+    width:400px;
+}
+
 img {
-    padding: 0;
+    padding-bottom:2;
     display: block;
     margin: 0 auto;
-    max-height: auto;
     max-width: 50%;
+}
+
+#float {
     float:right;
-    ;
+    width: 150px;
 }
 
 #citation {
     font-size: 15px;
-
+    font-style:italic;
 }
